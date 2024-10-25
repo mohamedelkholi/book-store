@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <h3 class="logo">Elkholy</h3>  
+          <a href="./index.html">Home</a> 
+          <a href="#">About us</a>
+          <a href="#">Our Services</a>
+          <a href="#">Contact Us</a>
+        </div>
+        
+        <div>
+          <input
+          type="text"
+          placeholder="search here"
+          name="search"
+          id="searchInput"
+          class="input"
+        />
+        <button id="searchButton" class="btn">Search</button>
+        </div>
+        
+      </div>
+      <div class="selected_book">
+        <div class="left-b"><img id="bookImage" src="" alt="" /></div>
+        <div class="right-b">
+          <h2 class="title" id="bookTitle"></h2>
+          <h4 class="author" id="bookAuthor"></h4>
+          <p class="description" id="bookDescription"></p>
+          <h6 class="pageCount" id="bookPageCount"></h6>
+          <h6 class="publishingDate" id="bookPublishingDate"></h6>
+          <h6 class="averageRating" id="bookAverageRating"></h6>
+        </div>
+       
+      </div>
+    </div>
+    <script src="./itemDetails.js"></script>
+  </body>
+</html>
